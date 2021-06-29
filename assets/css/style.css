@@ -338,8 +338,3 @@ table {
 }
 /* Styling ended */
 /* Media query */
-@media only screen and (min-width: 780px){
-	.carousel-item {
-	height: 300px;
-}
-}
