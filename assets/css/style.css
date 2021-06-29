@@ -210,6 +210,9 @@ table {
 		 max-width: none;
 	}
 }
+.modal-dialog{
+	background-color: #fff
+}
  .slide-title span {
 	 white-space: pre;
 	 display: inline-block;
