@@ -49,12 +49,32 @@ table {
 }
 /* Reset CSS Ended */
 /* Media Query */
-@media only screen and (min-width: 350px) (max-width: 415px){
-	.carousel-caption h3 {
-    font-size: 16px;
+@media only screen and (min-width: 360px) and (max-width: 415px){
+	.carousel-caption h3	{
+		font-size: 16px;
+	}
+	.carousel-caption p{
+	    font-size: 12px;
+	}
+	.btn.btn-dark {
+    font-size: 10px;
+    padding: 5px 15px 5px 15px;
+    margin-top: -17px;
 }
 .carousel-item {
 	height: 200px !important;
+}
+.about p {
+    width: 90% !important;
+}
+.carousel-indicators {
+	display: none !important;
+}
+.carousel-control-prev {
+    display: none !important;
+}
+.carousel-control-next {
+    display: none !important;
 }
 }
 /* #Navigation
