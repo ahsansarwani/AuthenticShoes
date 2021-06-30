@@ -360,7 +360,7 @@ table {
     cursor: pointer;
 }
 #togglePassword{
-	justify-content: end;
+	justify-content: flex-end;
 	display: flex;
 	margin: -25px 10px 0 0;
 }
