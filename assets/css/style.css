@@ -49,7 +49,7 @@ table {
 }
 /* Reset CSS Ended */
 /* Media Query */
-@media only screen and (min-width: 360px) and (max-width: 415px){
+@media only screen and (min-width: 320px) and (max-width: 471px){
 	.carousel-caption h3	{
 		font-size: 16px;
 	}
@@ -75,6 +75,11 @@ table {
 }
 .carousel-control-next {
     display: none !important;
+}
+}
+@media only screen and (min-width: 415px) and (max-width: 1000px){
+	.carousel-item {
+    height: 300px !important;
 }
 }
 /* #Navigation
