@@ -26,11 +26,12 @@ footer, header, hgroup, menu, nav, section {
 }
 html, body{
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 body {
 	line-height: 1;
 	font-family: 'Open Sans', sans;
-	scroll-behavior: smooth;
+
 }
 ol, ul {
 	list-style: none;
@@ -380,3 +381,12 @@ table {
 }
 /* Styling ended */
 /* Media query */
+/* Cart Page Styles Begin */
+button.minus {
+    border: none;
+    padding: 3px 8px 3px 8px;
+}
+button.plus {
+    border: none;
+    padding: 3px 8px 3px 8px;
+}
