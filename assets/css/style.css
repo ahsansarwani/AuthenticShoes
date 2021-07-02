@@ -393,7 +393,7 @@ button.plus {
 /* Cart page Styling Ended */
 /* Thank You Page styles Begin */
 .heading{
-	padding: 100px
+	padding: 100px 0 100px 0;
 }
 @media only screen and (max-width: 475px){
 	.heading {
