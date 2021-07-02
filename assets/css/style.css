@@ -390,3 +390,13 @@ button.plus {
     border: none;
     padding: 3px 8px 3px 8px;
 }
+/* Cart page Styling Ended */
+/* Thank You Page styles Begin */
+.heading{
+	padding: 100px
+}
+@media only screen and (max-width: 475px){
+	.heading {
+    padding: 100px 0 100px 0;
+}
+}
